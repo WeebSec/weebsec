@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introduction
+subtitle: What's the blog all about
 image: /img/gh.jpg
 ---
 ## Hi I am Shin
