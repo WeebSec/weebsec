@@ -3,7 +3,7 @@ layout: post
 title: Introduction
 image: /img/gh.jpg
 ---
-<center>## Hi I am Shin</center>
+## Hi I am Shin
 I am a security enthusiastic, a student and a script kiddie and I love anime so feel free to chat me up.
 # I love you all, no homo.
 
