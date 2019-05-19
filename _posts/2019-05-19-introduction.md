@@ -3,6 +3,7 @@ layout: post
 title: Introduction
 subtitle: What's the blog all about
 image: /img/gh.jpg
+tags: [about]
 ---
 ## Hi I am Shin
 I am a security enthusiastic, a student and a script kiddie and I love anime so feel free to chat me up and this blog would be about my life as a student and as a security enthuasiastic so please enjoy and have fun. 
