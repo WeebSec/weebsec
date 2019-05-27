@@ -13,4 +13,4 @@ What else do you need?
 
 ### my history
 
-I had a relationship with a woman for 3 years but she left me to pursue her goals and such, it hurted me so much I have to enjoy the scar she gave to me. 
+That would be a secret 
