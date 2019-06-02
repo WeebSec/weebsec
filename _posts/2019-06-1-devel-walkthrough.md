@@ -88,7 +88,7 @@ Now it's time to grab root!
 
 Tadah!
 
-<center><img src="/img/devel-writeup/joven.gif"></center>
+<center><img src="/img/devel-writeup/joven.gif"/></center>
 
 
 
