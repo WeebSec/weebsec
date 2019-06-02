@@ -29,7 +29,7 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 In this case we have 2 ports open which is `ftp` and `http` and I noticed that in ftp we can login as Anonymous.
 
 # FTP-Port 21
-There aren't that much to enumerate and I found out that the directory you are in when you logged in through ftp is the web directory of the website.
+There aren't that much to enumerate other than that your directory that you are in is the web directory.
 # HTTP-Port 80
 It's just the default page of IIS7:
 ![](/img/devel-writeup/screenshot1.png)
@@ -77,7 +77,7 @@ msf5 post(multi/recon/local_exploit_suggester) > run
 ```
 ![](/img/devel-writeup/screenshot3.png)
 
-Yikes! That's a lot of exploits to try so I tried the first exploit but it didn't work for me so I used the 2nd and it WORKED GREAT!
+Yikes! That's a lot of exploits to try so I tried the first one  but it didn't work for me so I used the 2nd and it WORKED GREAT!
 ## BAM!
 
 ![](/img/devel-writeup/screenshot5.png)
@@ -86,7 +86,7 @@ Now it's time to grab root!
 
 ![](/img/devel-writeup/screenshot7.png)
 
-Tadah!
+<center>Wow Magic!</center>
 
 <center><img src="/img/devel-writeup/joven.gif"/></center>
 
