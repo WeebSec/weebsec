@@ -88,7 +88,7 @@ Now it's time to grab root!
 
 Tadah!
 
-![](/img/devel-writeup/joven.gif)
+<center><img src="/img/devel-writeup/joven.gif"></center>
 
 
 
